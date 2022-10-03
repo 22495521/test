@@ -106,6 +106,7 @@
     background-color:rgb(146, 146, 146, 0.2);
     width: 100%;
     z-index: 5;
+    pointer-events: none;
 } 
 .course{
     justify-content: space-between;
