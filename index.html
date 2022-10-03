@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -78,7 +76,8 @@
         </div>
         <ul class="course">
             <li class="item1">
-                <img src="img/html.png" alt="html.pnglogo">
+                <a class="example-image-link" href="img/html.png" data-lightbox="example"><img class="example-image" src="img/html.png"alt="image-1" /></a>
+                <!-- <img src="img/html.png" alt="html.pnglogo" data-lightbox="image-1" data-title="My caption"> -->
                 <h1>
                     Html 5基礎教學
                 </h1>
@@ -87,7 +86,7 @@
                 </p>
             </li>
             <li class="item2">
-                <img src="img/rwd.png" alt="rwd.pnglogo">
+                <a class="example-image-link" href="img/rwd.png" data-lightbox="example"><img class="example-image" src="img/rwd.png" alt="image-1" /></a>
                 <h1>
                     響應式網站設計
                 </h1>
@@ -96,7 +95,7 @@
                 </p>
             </li>
             <li class="item3">
-                <img src="img/jQuery.png" alt="jQuery.pnglogo">
+                <a class="example-image-link" href="img/jQuery.png" data-lightbox="example"><img class="example-image" src="img/jQuery.png" alt="image-1" /></a>
                 <h1>
                     jQuery實戰教學
                 </h1>
@@ -218,6 +217,7 @@
     </div>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/lightbox.js"></script>
     <script src="js/all.js"></script>
 </body>
 </html>

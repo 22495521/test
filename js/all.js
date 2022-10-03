@@ -15,6 +15,9 @@ $(document).ready(function () {
         // Optional parameters
         direction: 'horizontal',
         loop: true,
+        autoplay: {
+          delay: 3000,
+        },
         effect: 'fade',
         fadeEffect: {
           crossFade: true
@@ -34,4 +37,5 @@ $(document).ready(function () {
         //   el: '.swiper-scrollbar',
         // },
       });
+
 });
