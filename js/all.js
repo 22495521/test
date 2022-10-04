@@ -10,6 +10,15 @@ $(document).ready(function () {
         $(this).parent().find('ul').slideToggle();
         $(this).parent().siblings().find('ul').hide();
     });
+    $(".arrow").click(function (e) {
+      e.preventDefault();
+      $("html,body").animate(
+        {
+          scrollTop: 0,
+        },
+        600
+      );
+    });
 
     const swiper = new Swiper('.swiper', {
         // Optional parameters
